@@ -320,10 +320,10 @@ def main():
 
             # Create tabs for different sections
             result_tabs = st.tabs([
-                "📈 Health Metrics",
-                "⚠️ Risk Analysis",
-                "💊 Treatment Plan",
-                "📋 Detailed Report"
+                " Health Metrics",
+                " Risk Analysis",
+                " Treatment Plan",
+                " Detailed Report"
             ])
             
             with result_tabs[0]:
