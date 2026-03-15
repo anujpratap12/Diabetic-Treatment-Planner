@@ -146,14 +146,14 @@ http://localhost:8501
 ## Application Demo
 
 ### Patient Data Input Dashboard
-![Patient Input](screenshots/diabetic_screenshot_1.jpg)
+![Patient Input](screenshots/diabetic_screenshot_1.png)
 
 This interface allows healthcare professionals to enter patient health metrics such as age, BMI, blood pressure, and lifestyle indicators to generate a personalized treatment plan.
 
 ---
 
 ### Risk Analysis Results
-![Risk Analysis](screenshots/diabetic_screenshot_2.jpg)
+![Risk Analysis](screenshots/diabetic_screenshot_2.png)
 
 The system analyzes patient health indicators and estimates the probability of diabetes risk.  
 It classifies the patient into categories such as **Normal, Pre-diabetes, or Diabetes**.
@@ -161,7 +161,7 @@ It classifies the patient into categories such as **Normal, Pre-diabetes, or Dia
 ---
 
 ### Treatment Recommendations
-![Treatment Recommendation](screenshots/diabetic_screenshot_3.jpg)
+![Treatment Recommendation](screenshots/diabetic_screenshot_3.png)
 
 Based on the predicted risk level, the system generates personalized treatment recommendations including:
 
@@ -173,7 +173,7 @@ Based on the predicted risk level, the system generates personalized treatment r
 ---
 
 ### Model Performance Metrics
-![Model Performance](screenshots/diabetic_screenshot_4.jpg)
+![Model Performance](screenshots/diabetic_screenshot_4.png)
 
 The machine learning model was evaluated using standard metrics:
 
