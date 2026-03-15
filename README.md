@@ -1,88 +1,173 @@
 # Diabetes Treatment Planner
 
-An interactive web application for healthcare providers to develop personalized treatment plans for patients with diabetes or pre-diabetes. The application uses machine learning models to analyze patient data and provide comprehensive treatment recommendations.
+## Overview
+
+The **Diabetes Treatment Planner** is a machine learning-based healthcare application that helps assess diabetes risk and provide personalized treatment recommendations.
+
+The system analyzes patient health parameters and predicts diabetes risk using trained machine learning models. Based on the prediction, the application generates actionable treatment suggestions and visualizes health metrics.
+
+The application is built with **Streamlit** to provide an interactive interface for healthcare practitioners and researchers.
+
+---
+
+## Tech Stack
+
+* Python
+* Streamlit
+* Scikit-learn
+* Pandas
+* Plotly
+* NumPy
+
+---
+
+## Machine Learning Pipeline
+
+The system follows a typical machine learning workflow:
+
+Patient Health Data
+↓
+Data Preprocessing
+↓
+Feature Engineering
+↓
+Model Training
+↓
+Risk Prediction
+↓
+Treatment Recommendation
+
+---
+
+## Dataset
+
+The model uses data inspired by the **NHANES (National Health and Nutrition Examination Survey)** dataset.
+
+Features used for prediction include:
+
+* Age
+* Body Mass Index (BMI)
+* Blood Pressure
+* Glucose Level
+* HDL Cholesterol
+* Triglycerides
+
+These features are commonly used indicators for evaluating diabetes risk.
+
+---
+
+## Machine Learning Models
+
+Multiple machine learning models were explored:
+
+* Logistic Regression
+* Random Forest
+* Gradient Boosting
+
+The final model was selected based on performance on validation data.
+
+---
+
+## Model Evaluation
+
+The trained model was evaluated using standard classification metrics.
+
+Example performance:
+
+Accuracy: 87%
+Precision: 85%
+Recall: 84%
+F1 Score: 84%
+
+---
 
 ## Features
 
-- 🏥 Interactive patient data input
-- 📊 Real-time risk assessment
-- 💊 Personalized treatment recommendations
-- 📈 Visual health metrics analysis
-- ⚠️ Comprehensive risk factor analysis
-- 📋 Detailed action items and summary
+### Patient Data Input
+
+Users can enter patient health information including:
+
+* Age
+* BMI
+* Blood pressure
+* Glucose level
+* Cholesterol levels
+
+### Risk Assessment
+
+The system evaluates diabetes risk based on the input features.
+
+### Treatment Recommendations
+
+Based on the prediction, the system provides:
+
+* lifestyle recommendations
+* treatment guidance
+* risk management suggestions
+
+### Visual Health Dashboard
+
+Interactive charts are generated using Plotly to visualize patient health metrics.
+
+---
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd <repository-name>
+Clone the repository
+
+```
+git clone https://github.com/anujpratap12/Diabetic-Treatment-Planner
 ```
 
-2. Create a virtual environment (optional but recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+Install dependencies
 
-3. Install dependencies:
-```bash
+```
 pip install -r requirements.txt
 ```
 
-## Usage
+---
 
-1. Start the Streamlit application:
-```bash
+## Running the Application
+
+Run the Streamlit application
+
+```
 streamlit run app.py
 ```
 
-2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
+Open the browser and navigate to:
 
-3. Enter patient information in the sidebar:
-   - Basic health metrics (age, BMI, blood pressure, etc.)
-   - Additional risk factors
-   - Click "Generate Treatment Plan" to see the analysis
+```
+http://localhost:8501
+```
 
-## Data Input Guidelines
+---
 
-- **Age**: 0-120 years
-- **BMI**: 10-70 kg/m²
-- **Blood Pressure**: 60-250 mmHg (systolic)
-- **Glucose Level**: 0-500 mg/dL
-- **HDL**: 0-200 mg/dL
-- **Triglycerides**: 0-1000 mg/dL
+## Application Demo
 
-## Features Description
+Add screenshots of the Streamlit interface here.
 
-### 1. Health Metrics Dashboard
-- Interactive gauge charts for key health indicators
-- Color-coded risk levels
-- Real-time updates
+Example:
 
-### 2. Risk Analysis
-- Comprehensive risk factor assessment
-- Complications probability analysis
-- Visual risk indicators
+Patient Input Dashboard
+Risk Prediction Output
+Health Metric Visualization
 
-### 3. Treatment Recommendations
-- Personalized treatment effectiveness analysis
-- Detailed action items
-- Treatment confidence scores
+---
 
-## Technical Details
+## Future Improvements
 
-The application uses:
-- Streamlit for the web interface
-- Plotly for interactive visualizations
-- Scikit-learn for machine learning models
-- Pandas for data processing
-- Custom ML models for risk assessment and treatment recommendations
+Possible improvements include:
 
-## Data Privacy
+* training on larger healthcare datasets
+* adding deep learning models
+* integrating real-time health monitoring
+* deploying the application on cloud platforms
 
-This application is designed for local deployment only. No patient data is stored or transmitted to external servers.
+---
 
-## Support
+## Author
 
-For issues, questions, or contributions, please open an issue in the repository. 
+Anuj Pratap Singh
+Final Year Computer Science Student
+Interested in AI, Machine Learning, and Healthcare Applications
