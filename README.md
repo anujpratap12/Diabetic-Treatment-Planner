@@ -145,16 +145,43 @@ http://localhost:8501
 
 ## Application Demo
 
-Add screenshots of the Streamlit interface here.
+### Patient Data Input Dashboard
+![Patient Input](screenshots/diabetes_screenshot_1.jpg)
 
-Example:
-
-Patient Input Dashboard
-Risk Prediction Output
-Health Metric Visualization
+This interface allows healthcare professionals to enter patient health metrics such as age, BMI, blood pressure, and lifestyle indicators to generate a personalized treatment plan.
 
 ---
 
+### Risk Analysis Results
+![Risk Analysis](screenshots/diabetes_screenshot_2.jpg)
+
+The system analyzes patient health indicators and estimates the probability of diabetes risk.  
+It classifies the patient into categories such as **Normal, Pre-diabetes, or Diabetes**.
+
+---
+
+### Treatment Recommendations
+![Treatment Recommendation](screenshots/diabetes_screenshot_3.jpg)
+
+Based on the predicted risk level, the system generates personalized treatment recommendations including:
+
+- Medication suggestions
+- Lifestyle modifications
+- Dietary changes
+- Monitoring guidelines
+
+---
+
+### Model Performance Metrics
+![Model Performance](screenshots/diabetes_screenshot_4.jpg)
+
+The machine learning model was evaluated using standard metrics:
+
+- **Precision:** 99.80%
+- **Recall:** 99.90%
+- **F1 Score:** 99.85%
+
+These metrics demonstrate strong predictive performance for diabetes risk classification.
 ## Future Improvements
 
 Possible improvements include:
