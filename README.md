@@ -172,17 +172,8 @@ Based on the predicted risk level, the system generates personalized treatment r
 
 ---
 
-### Model Performance Metrics
-![Model Performance](screenshots/diabetic_screenshot_4.png)
 
-The machine learning model was evaluated using standard metrics:
 
-- **Precision:** 99.80%
-- **Recall:** 99.90%
-- **F1 Score:** 99.85%
-
-These metrics demonstrate strong predictive performance for diabetes risk classification.
-## Future Improvements
 
 Possible improvements include:
 
